@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      Menu:
+      <h2>Teste</h2>
       <BrowserRouter>
         <div>
           <Route path="/" exact component={Home} />
